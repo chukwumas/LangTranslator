@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dynamicweb.Translations.GoogleCloudTranslate" Version="0.2.2" />
+    <PackageReference Include="Google.Apis.Translate.v2" Version="1.60.0.875" />
+    <PackageReference Include="Google.Cloud.Translate.V3" Version="3.2.0" />
+  </ItemGroup>
+
+</Project>
